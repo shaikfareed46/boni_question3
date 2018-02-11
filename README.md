@@ -3,6 +3,7 @@
 You have following code part below which consist of several “if else” statements. You
 need to optimize the code to support different data types in the future without
 changing it one more time.
+```
 public void processContract(String type) {
 if ("electricity".equals(type)) {
 System.out.println("Processed electricity");
@@ -12,6 +13,7 @@ System.out.println("Processed dsl");
 System.out.println("Processed appartment");
 }
 }
+```
 
 ## Solution
 
