@@ -78,7 +78,7 @@ To start app from IDE
 ```
 **Eclipse**
 ```
- Right click on GameLauncher.java -> Run as -> Java application
+ Right click on TypePrinter.java -> Run as -> Java application
 ```
 
 **CLI**
