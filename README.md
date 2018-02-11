@@ -79,6 +79,9 @@ To start app from IDE
 **CLI**
 From project folder execute below command. Since this is a mavenised project we will use below command.
 ```
+ mvn clean install
+```
+```
  mvn spring-boot:run
 ```
 
