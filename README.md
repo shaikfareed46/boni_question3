@@ -62,7 +62,7 @@ So in future if you have any diffrent types to add, you dont need to change the 
 For this application to run below are the pre requisite
 
 1. Java (Used for development)
-2. Maven (Used for building and running application, for the best effects kindly use IDE like STS or Eclipse).
+2. Maven
 
 ### How to start app??
 
