@@ -39,20 +39,20 @@ Here **TypeConstant** is a enum constant something like this
 
 ```
 public enum TypeConstant{
-		electricity("electricity"),
-	    dsl("dsl"),
-	    appartment_rent("appartment rent");
+	electricity("electricity"),
+	dsl("dsl"),
+	appartment_rent("appartment rent");
 		
-		private String type;
+	private String type;
 		 
-		TypeConstant(String type) {
-	        this.type = type;
-	    }
-		
-		public String getType() {
-	        return type;
-	    }
+	TypeConstant(String type) {
+	     this.type = type;
 	}
+		
+	public String getType() {
+	     return type;
+	}
+}
 ```
 
 So in future if you have any diffrent types to add, you dont need to change the code inside the **process** method. You just need to add it in TypeConstant Enum.
