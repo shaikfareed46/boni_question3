@@ -1,4 +1,4 @@
-# boni_question3
+# Boni question3
 
 You have following code part below which consist of several “if else” statements. You
 need to optimize the code to support different data types in the future without
