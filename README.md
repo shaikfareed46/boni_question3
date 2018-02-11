@@ -5,13 +5,16 @@ need to optimize the code to support different data types in the future without
 changing it one more time.
 ```
 public void processContract(String type) {
-if ("electricity".equals(type)) {
-System.out.println("Processed electricity");
-} else if ("dsl".equals(type)) {
-System.out.println("Processed dsl");
-} else if ("appartment_rent".equals(type)) {
-System.out.println("Processed appartment");
-}
+	if ("electricity".equals(type)) {
+		System.out.println("Processed electricity");
+	} else if ("dsl".equals(type)) {
+		System.out.println("Processed dsl");
+	} else if ("appartment_rent".equals(type)) {
+		System.out.println("Processed appartment");
+	}
+	.
+	.
+	.
 }
 ```
 
